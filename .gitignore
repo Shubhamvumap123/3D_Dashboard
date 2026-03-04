@@ -1,0 +1,4 @@
+node_modules
+build_err.txt
+ts_err.txt
+*.log
