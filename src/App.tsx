@@ -1,12 +1,10 @@
-import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import DashboardLayout from './layouts/DashboardLayout';
 
 import DashboardHome from './pages/DashboardHome';
 
-// Mock Pages for routing
-const AnalyticsPage = () => <div className="p-6 text-2xl font-light text-slate-300">Analytics Data</div>;
-const ThreeDStudio = () => <div className="p-6 text-2xl font-light text-slate-300">3D Interaction Studio</div>;
+import AnalyticsPage from './pages/AnalyticsPage';
+import ThreeDStudio from './pages/ThreeDStudio';
 
 function App() {
     return (
